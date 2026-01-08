@@ -9,7 +9,7 @@ This repository contains the implementation for the paper **"Molecular graph rep
 ### **Prerequisites**
 - Python 3.8 or higher
 - PyTorch 2.1.1+
-- 16GB+ RAM
+- torch-geometric==2.4.0
 
 ### **Installation**
 
@@ -24,12 +24,12 @@ cd drug-target-affinity-prediction
 
 2. **Install Dependencies:**
 ```bash
-pip install torch==2.1.1 torchvision torchaudio
+pip install torch==2.1.1 
 
 # Install PyTorch Geometric and related packages
 pip install torch-scatter torch-sparse torch-cluster torch-spline-conv -f https://data.pyg.org/whl/torch-2.1.0+cu118.html
 pip install torch-geometric==2.4.0
-pip install torch-geometric-temporal==0.54.0
+
 
 # Install other dependencies
 pip install tabulate==0.9.0
