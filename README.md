@@ -15,7 +15,6 @@ This repository contains the implementation for the paper **"Molecular graph rep
 
 1. **Clone the Repository:**
 ```bash
-We will put in future after paper acceptance.
 git clone https://github.com/khushnood/drug-target-affinity-prediction.git
 cd drug-target-affinity-prediction
 ```
